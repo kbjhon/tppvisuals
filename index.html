@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PBR visualizer by mathfreak231</title>
+<meta charset="UTF-8">
+<meta name="keywords" content="twitchplayspokemon twitch plays pokemon battle revolution visualizer">
+<meta name="description" content="PBR visualizer by mathfreak231">
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="main.js">
+</head>
+<body>
+<h1>PBR visualizer by mathfreak231 BETA</h1>
+<div>
+Step 1: Get your <a href="https://twitchplayspokemon.tv/show_oauth_token">API token</a><br>
+Step 2: Enter it below. Your API token must be in the box below for the "Refresh Match" button to work.<br>
+<input type="text" size="50" name="token"><br>
+<input type="button" value="Refresh Match" onclick="refreshMatch();resetAll();">&nbsp;<input type="button" value="Reset Visualizer" onclick="resetAll();">
+</div>
+<div id="mastertable">
+<div id="corner"></div>
+<div id="redteam">
+</div>
+<div id="blueteam">
+</div>
+<div id="damage">
+</div>
+</div>
+</body>
